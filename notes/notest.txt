@@ -1,0 +1,11 @@
+npm install react-router-dom@6
+npm install firebase@9.10
+npm install react-loading-skeleton 
+import 'react-loading-skeleton/dist/skeleton.css'
+
+
+netlify.toml
+    [[redirects]]
+    from ="/*"
+    to ="/index.html"
+    status = 200
